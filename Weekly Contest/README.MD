@@ -12,6 +12,8 @@ Since the answer may be too large, return it modulo 10^9 + 7.
 
 Example 1:
 
+![Example](5330-chart.png)
+
 Input: root = [1,2,3,4,5,6]
 
 Output: 110
@@ -39,6 +41,8 @@ You can choose any index of the array and start jumping. Return the maximum numb
 Notice that you can not jump outside of the array at any time.
 
 Example 1:
+
+![Example](5331-chart.jpeg)
 
 Input: arr = [6,4,14,6,8,13,9,7,10,6,12], d = 2
 
