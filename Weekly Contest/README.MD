@@ -57,6 +57,8 @@ Similarly You cannot jump from index 3 to index 2 or index 1.
 
 ### 5179 Balance a Binary Search Tree
 
+*Difficulty: Medium*
+
 Given a binary search tree, return a balanced binary search tree with the same node values.
 
 A binary search tree is balanced if and only if the depth of the two subtrees of every node never differ by more than 1.
@@ -64,6 +66,8 @@ A binary search tree is balanced if and only if the depth of the two subtrees of
 If there is more than one answer, return any of them.
 
 ### 1383 Maximum Performance of a Team
+
+*Difficulty: Hard*
 
 There are n engineers numbered from 1 to n and two arrays: speed and efficiency, where speed[i] and efficiency[i] represent the speed and efficiency for the i-th engineer respectively. Return the maximum performance of a team composed of at most k engineers, since the answer can be a huge number, return this modulo 10^9 + 7.
 
