@@ -55,7 +55,7 @@ Similarly You cannot jump from index 3 to index 2 or index 1.
 
 # 2020/03/15
 
-### 5179 Balance a Binary Search Tree
+### 5179. Balance a Binary Search Tree
 
 *Difficulty: Medium*
 
@@ -65,7 +65,7 @@ A binary search tree is balanced if and only if the depth of the two subtrees of
 
 If there is more than one answer, return any of them.
 
-### 1383 Maximum Performance of a Team
+### 1383. Maximum Performance of a Team
 
 *Difficulty: Hard*
 
