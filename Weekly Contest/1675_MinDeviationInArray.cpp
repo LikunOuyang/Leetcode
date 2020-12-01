@@ -7,7 +7,7 @@ public:
 			min_heap.push(it);
 			max_heap.push(it);
 		}
-		int res = max_heap.top() - min_heap.top();
+		int res = std::numeric_limits<int>::max();;
 		while (!min_heap.empty() && min_heap.top() % 2 == 1) {
 			res = std::min(res, max_heap.top() - min_heap.top());
 			int temp = min_heap.top() * 2;

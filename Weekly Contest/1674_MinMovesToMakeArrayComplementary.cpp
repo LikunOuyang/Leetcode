@@ -12,7 +12,7 @@ public:
 			++moves_boundary[max(l, r) + limit + 1];
 		}
 		int res = N, needed_moves = N;
-		// scan thru 2 to 2*Limit to find minimum moves needed
+		// scan thru 2 to 2 * Limit to find minimum moves needed
 		for (int i = 2; i <= limit * 2; ++i) {
 			needed_moves += moves_boundary[i];
 			res = min(res, needed_moves);
