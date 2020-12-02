@@ -137,7 +137,9 @@ Output: [2,3,3,4]
 Constraints:
 
 1 <= nums.length <= 105
+
 0 <= nums[i] <= 109
+
 1 <= k <= nums.length
 
 
@@ -184,8 +186,11 @@ Explanation: nums is already complementary
 Constraints:
 
 n == nums.length
+
 2 <= n <= 105
+
 1 <= nums[i] <= limit <= 105
+
 n is even.
 
 ## 1675. Minimize Deviation in Array
@@ -230,5 +235,7 @@ Output: 3
 Constraints:
 
 n == nums.length
+
 2 <= n <= 105
+
 1 <= nums[i] <= 109
