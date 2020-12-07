@@ -112,6 +112,45 @@ efficiency.length == n
 
 # 2020/11/28
 
+## 1671. Minimum Number of Removals to Make Mountain Array
+
+*Difficulty: Hard*
+
+You may recall that an array arr is a mountain array if and only if:
+
+arr.length >= 3
+
+There exists some index i (0-indexed) with 0 < i < arr.length - 1 such that:
+
+arr[0] < arr[1] < ... < arr[i - 1] < arr[i]
+
+arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
+
+Given an integer array nums​​​, return the minimum number of elements to remove to make nums​​​ a mountain array.
+
+Example 1:
+
+Input: nums = [3,5,2,6], k = 2
+
+Output: [2,6]
+
+Explanation: Among the set of every possible subsequence: {[3,5], [3,2], [3,6], [5,2], [5,6], [2,6]}, [2,6] is the most competitive.
+
+Example 2:
+
+Input: nums = [2,4,3,3,5,4,9,6], k = 4
+
+Output: [2,3,3,4]
+ 
+
+Constraints:
+
+1 <= nums.length <= 105
+
+0 <= nums[i] <= 109
+
+1 <= k <= nums.length
+
 ## 1673. Find the Most Competitive Subsequence
 
 *Difficulty: Medium*
